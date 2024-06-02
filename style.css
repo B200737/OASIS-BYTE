@@ -1,0 +1,36 @@
+body{
+    
+    padding: 0%;
+    text-align: center;
+    /* background-image: url("/home/user/Pictures/thank.jpg"); */
+    background-color: color-mix(in lch increasing hue, color percentage, color percentage);
+    text-align:center;
+
+    font-family: 'DM Mono', monospace;
+    margin-top:100px;
+     background-color:grey;
+}
+h1{
+    font-size: 45px;
+    font-family:sans-serif;
+}
+input{
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn:hoven{
+
+    background-color: rgb(123, 137, 149);
+    color: rgb(12, 39, 62);
+    font-style: italic;
+}
+
+ .btn:hover{
+    background-color:blue;
+    }
+     .btn:focus{
+    background-color:red;
+    }
